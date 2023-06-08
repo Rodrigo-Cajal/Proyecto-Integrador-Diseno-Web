@@ -610,6 +610,67 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
+
+  .video__registro {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110%;
+    object-fit: cover;
+  }
+
+  .capa__registro {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110%;
+    background: #27374D;
+    opacity: 80%;
+  }
+
+
+  .video__ingreso {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .capa__ingreso {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #27374D;
+    opacity: 80%;
+  }
+
+
+
+  .video__index {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+  }
+
+  .capa__index {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    background: #27374D;
+    opacity: 80%;
+  }
+
 }
 
 
@@ -776,7 +837,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: 60%;
+    height: 70%;
     object-fit: cover;
   }
 
@@ -785,7 +846,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: 60%;
+    height: 70%;
     background: #27374D;
     opacity: 80%;
   }
@@ -927,6 +988,29 @@ body {
     background: #27374D;
     opacity: 80%;
   }
+
+
+
+  .video__index {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+  }
+
+  .capa__index {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    background: #27374D;
+    opacity: 80%;
+  }
+
+
 
   .contacto__form--p-ingreso a{
     padding-left: 5px;
