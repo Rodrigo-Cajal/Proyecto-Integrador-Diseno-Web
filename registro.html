@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>H&K Construcciones</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav navbar">
+            <a href="index.html">
+                <img src="img/logo.svg" alt="" class="header__nav--logo">
+            </a>
+            <label for="toggle-menu"><i class="fa-solid fa-bars"></i></label>
+            <input type="checkbox" id="toggle-menu">
+
+            <ul class="header__ul navbar-list">
+                <li class="header__ul--li">
+                    <a href="index.html" class="header__ul--a navbar-link">Inicio</a>
+                </li>
+                <li class="header__ul--li">
+                    <a href="#servicios" class="header__ul--a navbar-link">Servicios</a>
+                </li>
+                <li class="header__ul--li">
+                    <a href="#proyectos" class="header__ul--a navbar-link">Proyectos</a>
+                </li>
+                <li class="header__ul--li">
+                    <a href="#contacto" class="header__ul--a navbar-link">Contacto</a>
+                </li>
+                <li class="header__ul--li">
+                    <a href="ingreso.html" class="header__ul--a navbar-link">Iniciar Sesión</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main__registro">
+        <video muted autoplay loop class="video__registro">
+            <source src="img/background-main.mp4" type="video/mp4">
+        </video>
+        <div class="capa__registro"></div>
+        <div class="contacto__form-registro">
+            <h2>Registrarse</h2>
+            <form action="" method="POST">
+                <div class="contacto__form--row-registro">
+                    <label for="nombre" class="contacto__form--label-registro">Nombre y Apellido</label>
+                    <input id="nombre" name="nombre" type="text" class="contacto__form--input-registro" required>
+                </div>
+                <div class="contacto__form--row-registro">
+                    <label for="correo" class="contacto__form--label-registro">Correo</label>
+                    <input id="correo" name="correo" type="text" class="contacto__form--input-registro" required>
+                </div>
+                <div class="contacto__form--row-registro">
+                    <label for="contraseña" class="contacto__form--label-registro">Contraseña</label>
+                    <input id="contraseña" name="contraseña" type="text" class="contacto__form--input-registro" required>
+                </div>
+                <div class="contacto__form--row-registro">
+                    <label for="conf-contraseña" class="contacto__form--label-registro">Confirmar contraseña</label>
+                    <input id="conf-contraseña" name="conf-contraseña" type="text" class="contacto__form--input-registro" required>
+                </div>
+                <button type="submit" class="contacto__form--button-registro" id="enviar">ENVIAR</button>
+            </form>
+            <p class="contacto__form--p-registro">Ya tienes una cuenta?<a href="ingreso.html"> Inicia sesión</a></p>
+        </div>
+    </main>

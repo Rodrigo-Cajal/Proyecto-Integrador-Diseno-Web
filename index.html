@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>H&K Construcciones</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav navbar">
+            <a href="index.html">
+                <img src="img/logo.svg" alt="" class="header__nav--logo">
+            </a>
+            <label for="toggle-menu"><i class="fa-solid fa-bars"></i></label>
+            <input type="checkbox" id="toggle-menu">
+
+            <ul class="header__ul navbar-list">
+                <li class="header__ul--li">
+                    <a href="index.html" class="header__ul--a navbar-link">Inicio</a>
+                </li>
+                <li class="header__ul--li">
+                    <a href="#servicios" class="header__ul--a navbar-link">Servicios</a>
+                </li>
+                <li class="header__ul--li">
+                    <a href="#proyectos" class="header__ul--a navbar-link">Proyectos</a>
+                </li>
+                <li class="header__ul--li">
+                    <a href="#contacto" class="header__ul--a navbar-link">Contacto</a>
+                </li>
+                <li class="header__ul--li">
+                    <a href="ingreso.html" class="header__ul--a navbar-link">Iniciar Sesión</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <video muted autoplay loop class="video__index">
+            <source src="img/background-main.mp4" type="video/mp4">
+        </video>
+        <div class="capa__index"></div>
+        <div class="main__container">
+            <h1 class="main__container--h1">H&K Construcciones</h1>
+            <p class="main__container--p">Creamos proyectos y los ejecutamos acorde a los gustos y preferencias de los clientes, H&K se ajusta a tus necesidades.</p>
+            <button class="main__container--button" ><a href="#contacto">Contáctenos</a> </button>
+        </div>
+    </main>
+
+    <section class="servicios" id="servicios">
+        <h2 class="servicios__h2">SERVICIOS</h2>
+        <div class="servicios__container">
+        <div class="servicios__container--prod">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-ruler" width="80" height="80" viewBox="0 0 24 24" stroke-width="1" stroke="#DDE6ED" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M5 4h14a1 1 0 0 1 1 1v5a1 1 0 0 1 -1 1h-7a1 1 0 0 0 -1 1v7a1 1 0 0 1 -1 1h-5a1 1 0 0 1 -1 -1v-14a1 1 0 0 1 1 -1" />
+                <path d="M4 8l2 0" />
+                <path d="M4 12l3 0" />
+                <path d="M4 16l2 0" />
+                <path d="M8 4l0 2" />
+                <path d="M12 4l0 3" />
+                <path d="M16 4l0 2" />
+              </svg>
+            <h4 class="servicios__container--h4">Arquitectura</h4>
+            <p class="servicios__container--p">Diseño y planificación de un proyecto arquitectónico, y la realización de inspecciones de seguridad.</p>
+        </div>
+        <div class="servicios__container--prod">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-backhoe" width="80" height="80" viewBox="0 0 24 24" stroke-width="1" stroke="#DDE6ED" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M4 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                <path d="M13 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                <path d="M13 19l-9 0" />
+                <path d="M4 15l9 0" />
+                <path d="M8 12v-5h2a3 3 0 0 1 3 3v5" />
+                <path d="M5 15v-2a1 1 0 0 1 1 -1h7" />
+                <path d="M21.12 9.88l-3.12 -4.88l-5 5" />
+                <path d="M21.12 9.88a3 3 0 0 1 -2.12 5.12a3 3 0 0 1 -2.12 -.88l4.24 -4.24z" />
+              </svg>
+            <h4 class="servicios__container--h4">Ingeniería Civil</h4>
+            <p class="servicios__container--p">Realización de estudios de factibilidad y viabilidad de proyectos, elaboración de planos y diseños estructurales.</p>
+        </div>
+        <div class="servicios__container--prod">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-gavel" width="80" height="80" viewBox="0 0 24 24" stroke-width="1" stroke="#DDE6ED" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M13 10l7.383 7.418c.823 .82 .823 2.148 0 2.967a2.11 2.11 0 0 1 -2.976 0l-7.407 -7.385" />
+                <path d="M6 9l4 4" />
+                <path d="M13 10l-4 -4" />
+                <path d="M3 21h7" />
+                <path d="M6.793 15.793l-3.586 -3.586a1 1 0 0 1 0 -1.414l2.293 -2.293l.5 .5l3 -3l-.5 -.5l2.293 -2.293a1 1 0 0 1 1.414 0l3.586 3.586a1 1 0 0 1 0 1.414l-2.293 2.293l-.5 -.5l-3 3l.5 .5l-2.293 2.293a1 1 0 0 1 -1.414 0z" />
+              </svg>
+            <h4 class="servicios__container--h4">Trámites municipales</h4>
+            <p class="servicios__container--p">Para cumplir con los requisitos y permisos necesarios, y con las normativas y regulaciones locales.</p>
+        </div>
+    </div>
+    </section>
+
+    <section class="proyectos" id="proyectos">
+        <div class="proyectos__container">
+        <h2 class="proyectos__container--h2">PROYECTOS</h2>
+        <p class="proyectos__container--p">Estos son varios de nuestros proyectos más destacados de nuestro repertorio.</p>
+        </div>
+        <div class="proyectos__container--carro-section">
+            <div class="proyectos__container--carro">
+            <img src="img/img1.jpg" height="300px" width="300px" alt="" class="proyectos__container--img"><p>Torre Vector IV</p></div>
+            <div class="proyectos__container--carro">
+            <img src="img/img2.jpg" height="300px" width="300px" alt="" class="proyectos__container--img"><p>Torre Vector IV</p></div>
+            <div class="proyectos__container--carro">
+            <img src="img/img3.jpg" height="300px" width="300px" alt="" class="proyectos__container--img"><p>Torre Vector IV</p></div>
+            <div class="proyectos__container--carro">
+            <img src="img/img4.jpg" height="300px" width="300px" alt="" class="proyectos__container--img"><p>Torre Vector IV</p>
+        </div>
+        </div>
+    </section>
+
+    <section class="contacto" id="contacto">
+        <h2 class="contacto__h2">CONTACTO</h2>
+        <div class="contacto__container">
+        <div class="contacto__datos">
+            <ul class="contacto__ul">
+                <li class="contacto__ul--li">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="36" height="36" viewBox="0 0 24 24" stroke-width="2.5" stroke="#DDE6ED" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                        <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                      </svg>
+                    <p class="contacto__ul--p">Rosario, Santa Fe, Argentina</p>
+                </li>
+                <li class="contacto__ul--li">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="36" height="36" viewBox="0 0 24 24" stroke-width="2.5" stroke="#DDE6ED" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" />
+                        <path d="M3 7l9 6l9 -6" />
+                      </svg>
+                    <p class="contacto__ul--p">correo@correo.com</p>
+                </li>
+                <li class="contacto__ul--li">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone" width="36" height="36" viewBox="0 0 24 24" stroke-width="2.5" stroke="#DDE6ED" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                      </svg>
+                    <p class="contacto__ul--p">+123 456 78910</p>
+                </li>
+            </ul>
+        </div>
+        <div class="contacto__form">
+            <form action="" method="POST">
+                <div class="contacto__form--row">
+                    <label for="nombre" class="contacto__form--label">Nombre</label>
+                    <input id="nombre" name="nombre" type="text" class="contacto__form--input" required>
+                </div>
+                <div class="contacto__form--row">
+                    <label for="mail" class="contacto__form--label">Email</label>
+                    <input id="mail" name="mail" type="text" class="contacto__form--input" required>
+                </div>
+                <div class="contacto__form--row">
+                    <label for="celular" class="contacto__form--label">Celular</label>
+                    <input id="celular" name="celular" type="text" class="contacto__form--input" required>
+                </div>
+                <div class="contacto__form--row">
+                    <label for="mensaje" class="contacto__form--label">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" cols="30" rows="8" class="contacto__form--textarea" required></textarea>
+                </div>
+                <button type="submit" class="contacto__form--button" id="enviar">ENVIAR</button>
+            </form>
+        </div>
+    </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__logo">
+            <img src="/img/logo.svg" alt="" class="footer__logo--img">
+        </div>
+        <div class="footer__copy">
+            <p class="footer__copy--p">Copyright 2023 ©</p>
+        </div>
+        <div class="footer__redes">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#DDE6ED" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+                <path d="M8 11l0 5" />
+                <path d="M8 8l0 .01" />
+                <path d="M12 16l0 -5" />
+                <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#DDE6ED" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+                <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                <path d="M16.5 7.5l0 .01" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#DDE6ED" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+              </svg>
+        </div>
+    </footer>
+</body>
+</html>
